@@ -174,10 +174,8 @@
 }
 
 .product-chk{
-  width:70%;
-  margin: 20px auto;
-  
-   
+  width:100%;
+  margin: 20px 20px;
 }
 
 .product-chk > img {
