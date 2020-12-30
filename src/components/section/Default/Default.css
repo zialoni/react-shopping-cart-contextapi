@@ -1,0 +1,19 @@
+
+.error-page {
+   
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    align-items:center;
+    text-align: center;
+    justify-content: center;   
+
+}
+
+.error-page span{
+    font-size:2rem;
+    font-weight: bold;
+    word-spacing: 20px;
+    
+}
