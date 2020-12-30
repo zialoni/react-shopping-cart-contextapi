@@ -26,7 +26,7 @@
     overflow:hidden;
     border:2px solid #dcd9cd;
     box-shadow:0 5px 10px rgba(29, 27, 27, 0.8);
-    margin: 20px;
+    margin: 20px auto;
     background:white; 
     border-radius:5px;
 }
@@ -177,8 +177,10 @@
 .product-chk{
   width:100%;
   max-width: 350px;
-  margin: 20px auto;
-   
+  margin: 10px 20px 10px 90px;
+  align-items:center;
+  align-self: center;
+  align-content: center;
 }
 
 .product-chk > img {
