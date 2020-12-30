@@ -155,7 +155,7 @@
 .cart-total{
     position:relative;
     margin:auto;
-    width:350px;
+    width:300px;
 
 }
 
@@ -173,8 +173,7 @@
 }
 
 .product-chk{
-  width:82%;
-  align-items:center;
+  width:75%;
   text-align: center;
   margin: 20px auto;
   
@@ -182,7 +181,7 @@
 }
 
 .product-chk > img {
-   width:200px;
+   width:150px;
    height:250px;
 }
 
