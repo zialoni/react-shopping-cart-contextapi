@@ -171,18 +171,18 @@
 
 .product-chk-price, .product-chk-offer{
   margin-bottom: 5px;
-  font-size:1.rem;
+  font-size:1.3rem;
 }
 
 .product-chk{
   width:100%;
   max-width: 350px;
-  margin: 20px auto;
+  margin: 20px 90px;
    
 }
 
 .product-chk > img {
-   width:150px;
+   width:160px;
    height:250px;
 }
 
