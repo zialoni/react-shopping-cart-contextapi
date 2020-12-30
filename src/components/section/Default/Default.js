@@ -4,7 +4,7 @@ import "./Default.css";
 export class Default extends Component {
     render() {
         return (
-            <div class="error-page">
+            <div className="error-page">
                 <span>ERROR 404</span>
             </div>
         )

@@ -8,7 +8,7 @@ function CartTotal({value, history}) {
     }
     const {cartSubTotal, cartTax, cartTotal} = value;
     return (
-        <div class="cart-total">
+        <div className="cart-total">
         <p>
             <span><strong>Sub Total</strong></span>
             <span><strong>$ </strong>{cartSubTotal}</span>

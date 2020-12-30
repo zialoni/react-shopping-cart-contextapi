@@ -4,7 +4,7 @@ import "./Cart.css";
 export class EmptyCart extends Component {
     render() {
         return (
-            <div class="empty">
+            <div className="empty">
                 <span>You have no items in the cart</span>
             </div>
         )

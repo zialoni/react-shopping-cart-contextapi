@@ -172,7 +172,15 @@
 }
 
 .product-chk{
-    width:95%;
+  width:82%;
+  align-items:center;
+  margin-left:auto;
+   
+}
+
+.product-chk > img {
+   width:200px;
+   height:250px;
 }
 
 
@@ -192,6 +200,8 @@
         padding:10px 25px;
         margin-top:0px;
     }
+
+    
 
     .product-chk-price, .product-chk-offer{
         margin-bottom: 5px;

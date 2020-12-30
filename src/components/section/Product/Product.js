@@ -13,15 +13,15 @@ export class Product extends Component {
                     <img src={img} alt="product"/>
                     <ProductConsumer>
                         {(value) => (
-                             <div class="content">
-                             <div class="row">
-                                 <div class="details">
+                             <div className="content">
+                             <div className="row">
+                                 <div className="details">
                                      <span>{title}</span>
                                    
                                  </div>
-                                 <div class="price">${price}</div>
+                                 <div className="price">${price}</div>
                              </div>
-                             <div class="desc">{desc}</div>
+                             <div className="desc">{desc}</div>
                              <div class="buttons">
                                 <Link to="/details" onClick={()=> value.handleDetail(id)}>Details</Link>
                                 <button disabled={inCart ? true : false}
