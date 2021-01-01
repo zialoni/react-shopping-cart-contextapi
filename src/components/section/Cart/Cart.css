@@ -163,11 +163,16 @@
     .product-chk-remove{
         position: relative;
         top:2px;
-        left:1px;
-        right:1px;
+        right:2px;
+        padding-right: 0px;
         text-align: center;
-        padding:10px 10px;
+       
     }
+
+.product-chk-name {
+    width:auto;
+    font-size: 1.4rem;
+}
     
 .product-chk-price, .product-chk-offer{
     margin-bottom: 5px;
@@ -177,7 +182,7 @@
   .product-chk{
   
       width:100%;
-      max-width: 390px;
+      max-width: 350px;
       margin: 20px auto;
     
   }
