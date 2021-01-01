@@ -22,9 +22,9 @@ function CartDesign({item, value}) {
                                <span onClick={() => increment(id)}><i class="fa fa-plus fa-2x"></i></span>
                                
                            </p>
-                           <p class="product-chk-remove">  
+                           <p class="product-chk-remove" onClick={() => removeItem(id)}>  
                               <i class="fa fa-trash fa-1x"></i>                      
-                              <span class="remove" onClick={() => removeItem(id)}>Remove</span>               
+                              <span class="remove">Remove</span>               
                            </p>
                       </div>
                 </div>
