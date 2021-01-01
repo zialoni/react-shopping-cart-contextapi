@@ -21,8 +21,9 @@ function CartTotal({value, history}) {
             <span><strong>Total</strong></span>
             <span><strong>$ </strong>{cartTotal}</span>
         </p>
-        
+        <p>
         <StripeCheckout stripeKey="" token={handleToken}/>
+        </p>
 
     </div>
     )

@@ -5,7 +5,7 @@ function CartDesign({item, value}) {
     const {id, title, img, price, total, count} = item;
     const {increment, decrement, removeItem} = value;
     return (
-        <div class="wrapper-cart">
+        <div class="container">
         <div class="cart-chk">
             <div class="products-chk">
                 <div class="product-chk">

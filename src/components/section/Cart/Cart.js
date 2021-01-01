@@ -15,10 +15,14 @@ export class Cart extends Component {
                         const {cart} = value;
                         if(cart.length>0) {
                             return (
-                             <React.Fragment>
+                             <div class="cart-wrapper">
+                                 <div class="cart-row">
                                 <CartElement value={value}/>
+                                 </div>
+                                 <div class="total-row">
                                 <CartTotal value={value} history={this.props.history} />
-                             </React.Fragment>
+                                </div>
+                             </div>
                             );
                         } else {
                             return <EmptyCart/>
